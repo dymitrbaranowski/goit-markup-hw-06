@@ -973,7 +973,7 @@ color: #8E8F99;
   padding-left: 38px;
   outline: transparent;
   background-color: transparent;
-  margin-top: 4px;
+  
 }
  
 .modal-input:focus {
@@ -1029,6 +1029,7 @@ color: rgba(46, 47, 66, 0.4);
 }
 .input-wrap {
   position: relative;
+  margin-top: 4px;
 }
 
 /* .check-text::before {
