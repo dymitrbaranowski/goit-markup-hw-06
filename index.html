@@ -18,31 +18,31 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--site header-->
+    <!--site header--Site-Nav-->
     <header class="page-header">
       <div class="container header-container">
-        <nav class="site-logo nav-container">
-          <a href="./index.html" class="logo link"
-            >Web<span class="accent">Studio</span></a
+        <nav class="header-nav">
+          <a href="./index.html" class="site-logo logo link"
+            >Web<span class="header-accent">Studio</span></a
           >
-          <ul class="site-nav nav-list list">
-            <li>
-              <div class="link-current-box">
-                <a href="./index.html" class="link-current link-studio link"
-                  >Studio</a
-                >
-              </div>
+          <ul class="nav-list list">
+            <li class="link-current-box">
+              <a
+                href="./index.html"
+                class="link-current current-elem header-link link"
+                >Studio</a
+              >
             </li>
 
             <li>
-              <a href="./portfolio.html" class="link-studio link">Portfolio</a>
+              <a href="./portfolio.html" class="header-link link">Portfolio</a>
             </li>
 
-            <li><a href="" class="link-studio link">Contacts</a></li>
+            <li><a href="" class="header-link link">Contacts</a></li>
           </ul>
         </nav>
-
-        <address class="auth-nav">
+        <!-- Site Address -->
+        <address>
           <ul class="auth-nav list">
             <li>
               <a
@@ -446,7 +446,8 @@
               name="user-email"
               required
             />
-            <button type="submit" class="subscribe-button">Subscribe
+            <button type="submit" class="subscribe-button">
+              Subscribe
               <svg width="24" height="24" class="telegram-icon">
                 <use href="./images/icons.svg#icon-telegram"></use>
               </svg>
