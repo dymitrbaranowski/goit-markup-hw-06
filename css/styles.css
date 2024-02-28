@@ -330,14 +330,16 @@ Our advantages*/
   padding-bottom: 120px;
   background-color: var(--Light);
 }
-.section-team {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+
+.team-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--Dark);
-  margin-bottom: 8px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -345,6 +347,10 @@ Our advantages*/
   gap: 24px;
   justify-content: center;
   flex-basis: calc(100% / 4);
+}
+
+.team-item {
+  padding-top: 72 px;
 }
 
 .team-description {
@@ -364,19 +370,15 @@ Our advantages*/
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.team-item {
-  padding-top: 72 px;
-}
 
-.team-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
+.section-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
+  color: var(--Dark);
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -473,15 +475,12 @@ Our advantages*/
 
 .footer {
   background-color: var(--Dark);
-  padding: 100px;
+  min-width: 1158px;
 }
 
-.footer-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--Accent);
-  margin-top: 16px;
-  width: 264px;
+.footer-container {
+  display: flex;
+  padding: 100px 0;
 }
 
 .logo-footer {
@@ -497,31 +496,33 @@ Our advantages*/
   text-decoration: none;
 }
 
-.footer-container {
-  display: flex;
+.accent {
+  color: var(--Light);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Accent);
+  margin-top: 16px;
+  width: 264px;
 }
 
 .footer-soc-media {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
   margin-left: 120px;
 }
+
 .footer-soc-title {
-  display: inline-block;
-  font-family: 'Roboto';
-  font-style: normal;
+  color: rgba(255, 255, 255, 1);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 1);
   margin-bottom: 16px;
 }
 
 .footer-soc-list {
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 
@@ -547,15 +548,8 @@ Our advantages*/
   background-color: var(--Success);
 }
 
-.footer-soc-icon {
-  fill: var(--B-g-color);
-}
-
 .subscribe-box {
   margin-left: 80px;
-}
-
-.subscribe-title {
 }
 
 .subscribe-form {
