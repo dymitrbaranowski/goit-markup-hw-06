@@ -68,11 +68,11 @@ button {
   outline-style: groove; */
 }
 
+/* --------Header ---------*/
+
 .header-container {
   display: flex;
 }
-
-/* --------Header ---------*/
 
 .page-header {
   border-bottom: 1px solid var(--Accent);
